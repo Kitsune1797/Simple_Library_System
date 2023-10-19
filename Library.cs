@@ -6,7 +6,7 @@ namespace MyDotNet
 {
     internal class Library
         {
-        private List<Book> books;
+        private readonly List<Book> books;
 
         public Library()
         {
